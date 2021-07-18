@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff91573f-0620-442c-a986-d9209ee1a65c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/classes/users.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/userscontr.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/usersview.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/test.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,12 +46,24 @@
       <option name="presentableId" value="Default" />
       <updated>1626367901484</updated>
       <workItem from="1626367902857" duration="5170000" />
-      <workItem from="1626608291031" duration="1951000" />
+      <workItem from="1626608291031" duration="4219000" />
     </task>
+    <task id="LOCAL-00001" summary="inserting data in the database using pdo.">
+      <created>1626610399796</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626610399796</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inserting data in the database using pdo." />
+    <option name="LAST_COMMIT_MESSAGE" value="inserting data in the database using pdo." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -57,6 +71,11 @@
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/classes/dbh.class.php</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

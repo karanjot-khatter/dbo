@@ -11,8 +11,11 @@ include 'includes/autoload.php';
 </head>
 <body>
     <?php
-        $testObj = new Test();
-        $testObj->setUsersStmt('John', 'Doe', '1984-03-02');
+    $usersObj = new UsersView();
+    $usersObj->showUser('Daniel');
+
+    $usersObj2 = new UsersContr();
+    $usersObj2->createUser('Jane', 'Doe', '1834-05-11');
     ?>
 </body>
 </html>
